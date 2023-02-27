@@ -1,0 +1,113 @@
+.hero {
+    background: #FEFAF5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero__text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2.5rem;
+}
+
+.hero__button {
+    margin-top: 1.25rem;
+}
+
+
+.hero__link {
+    text-decoration: none;
+    background-color: #DB7A4E;
+    border-radius: 2rem;
+    padding: 0.5rem 1.5rem;
+    text-decoration: none;
+    color: white;
+
+}
+
+.hero__text-title {
+    color: #335576;
+    width: 25rem;
+}
+
+.hero__text-para {
+    color: #335576;
+    width: 25rem;
+}
+
+.hero__image {
+    height: 25rem;
+    padding: 3.125rem;
+    margin-top: 2.5rem;
+}
+
+.carousel__title{
+    color: #335576;
+    /* padding-top: 20px;
+    padding-left: 20px; */
+    padding: 1.25rem;
+    margin-bottom: 0;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 3.75rem;
+}
+
+.cards__link {
+    text-decoration: none;
+    padding-bottom: 3.125rem;
+    padding-top: 0.625rem;
+}
+
+
+
+.cards__hawaii {
+    width: 300px;
+    height: 400px;
+    /* padding: 1.25rem; */
+    border-radius: 0.3125rem;
+    border: solid 1px rgba(0, 0, 0, 0.2);   
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    background-image: url(../assests/images/hawaii.jpg);
+    background-size: cover;
+    text-decoration: none;
+    position: relative;
+}
+
+.cards__iceland {
+    width: 300px;
+    height: 400px;
+    /* padding: 1.25rem; */
+    border-radius: 0.3125rem;
+    border: solid 1px rgba(0, 0, 0, 0.2);   
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    background-image: url(../assests/images/iceland.jpg);
+    background-size: cover;
+    position: relative;
+
+}
+
+.cards__greece {
+    width: 300px;
+    height: 400px;
+    /* padding: 1.25rem; */
+    border-radius: 0.3125rem;
+    border: solid 1px rgba(0, 0, 0, 0.2);   
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    background-image: url(../assests/images/greece.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.cards__title {
+    color: white;
+    /* text-align: right; */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 1.25rem;
+}
